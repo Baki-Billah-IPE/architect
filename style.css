@@ -1,0 +1,324 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    }
+    .start{
+        background-color:rgb(231, 221, 223);
+    }
+    .product{
+        display: flex;
+        padding: 1em;
+        justify-content: space-between;
+    }
+    .st{
+        margin-top: 1em;
+        margin-left: 5em;
+    
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 2em;
+        font-weight: 500;
+        width: 25em;
+        height: 5em;
+        margin-top: 2em;
+        
+       }
+       .title{
+           text-align: center;
+           
+       }
+       .title-1{
+         font-size: 1.5em;
+    
+       }
+       .title-2{
+           font-size: 1.5em;
+           margin-top: -1%;
+       }
+       .title-1pera{
+       margin-left: 20em;
+       margin-right: 20em;
+        
+       }
+       .title-btn{
+           background-color: orange;
+           padding: 10px;
+           color: white;
+           border: none;
+           border-radius: 5px;
+
+       }
+       .banner{
+           margin-left: 5%;
+           width: 90%;
+           margin-top: 3em;
+           margin-bottom: 1em;
+       }
+       /* second section style */
+       .second-section{
+           display: flex;
+           gap: 5em;
+           margin-top: 2em;
+           margin-left: 5em;
+           margin-right: 10em;
+       }
+       .team{
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+           row-gap: 1em;
+           column-gap: 1em;
+       }
+       /* extra bonous design shadow */
+       .shadow{
+
+        background-color: white;
+        padding: 1em;
+       box-shadow: 3px 3px 5px 1px black;
+       border-radius: 5px;
+
+       }
+       .text-1st{
+          color: grey; 
+       }
+       .text-2nd{
+        color: orangered;
+       }
+       .quick{
+           margin-top: 15em;
+       }
+     /* third section style */
+       .section-3rd{
+         display: flex;
+         gap: 4em;
+         margin-left: 5em;
+         margin-right: 3em;
+         margin-top: 5em;
+       }
+       .short-b{
+           background: linear-gradient(
+               to right,
+               orange 0%,
+               orange 1%,
+               white 2%,
+               white 99%
+            
+
+           );
+           width: 10em;
+         padding: 10px;
+         
+           
+       }
+       .architect-img{
+           width: 30em;
+           margin-right: 5em;
+        
+       }
+       .box{
+           padding: 1px;
+           background-color: white;
+           margin-top: 2em;
+           border-radius: 10px;
+           box-shadow: 1px 3px 12px 1px rgb(168, 198, 238);
+           
+        
+       }
+ h4{ margin-left: 1em;
+    
+ }
+ .pera{
+     color: grey;
+     margin-left: 1em;
+     margin-top: -1em;
+ }
+ .year{
+     background-color:darkorange;
+     color: white;
+     width: 11em;
+     text-align: center;
+     padding: 2px;
+     border-radius: 5px;  
+     margin-top: -5em;
+     margin-left: -2em;
+     position: relative;   
+ }
+h5{
+   margin-top: -1em; 
+}
+.year10{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+/* section-4 */
+.fact-h{
+    font-weight: 900;
+}
+.facts{
+    margin-left: 5em;
+    margin-top: 3em;
+}
+.facts-pera{
+    color: grey;
+    width: 25em;
+}
+
+.icon{
+    display: flex;
+    gap: 4em;
+    margin-left: 10em;
+    margin-top: 5em;
+
+}
+.icon-1{
+    border: 2px solid orange;
+    width: 10em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+
+}
+.icon-1:hover{
+    transform:rotate(5deg);
+    background-color: darkorange;
+    transition: width 5s linear ;
+    width: 20%;
+    height: 40%;
+
+}
+.icon-h{
+  margin-top:10px;
+
+}
+.icon-p{
+  color: grey;
+  
+}
+/* section-5 */
+
+.pera-5{
+    color: gray;
+    width: 30em;
+    margin-left: 25em;
+}
+.pera-h{
+    text-align: center;
+}
+.sp{
+    text-align: center;
+    margin-top: 5em;
+
+}
+.logo{
+    display: flex;
+    gap: 4em;
+    margin-left: 6em;
+    margin-top: 2em;
+
+}
+/* bonus */
+ .bonus{
+    background: linear-gradient(
+        to right,
+        rgb(236, 180, 74) 0%,
+        rgb(172, 172, 166) 30%,
+        lightpink 35%,
+        rgb(151, 151, 28)  79%
+     
+
+    );
+     height: 15em;
+     width: 70em;
+     margin-left: 5em;
+     border-radius: 10px;
+      margin-bottom: 15em;
+ }
+ .bonus-h{
+     text-align: center;
+     margin-top: 2em;
+     padding: 3em;
+ }
+ .ball{
+    background-color:whitesmoke;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.b-icon{
+    color:lightslategray;
+   padding: 10px;
+   margin-top: 6px;
+}
+.k{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   gap: 10px;
+   margin-top: -5em;
+}
+.ball:hover{
+    background-color: darkorange;
+}
+/* footer */
+.ftr{
+
+    background-color: lightpink;
+    margin-top: 8em;
+    border-radius: 5px;
+
+}
+.ftr-p{
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 10em;
+}
+
+
+      /* mobile device */
+       @media screen and (max-width:576px){
+        
+        
+     .start, .bonus, .ftr{
+         background-color: pink;
+         width: 100%;
+     }
+     .product, ul, .second-section, .section-3rd,.icon, .logo{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        padding: 1em;
+        justify-content: space-between;
+    }
+     .st{
+         text-align: center;
+
+     }
+     .title-1pera, .pera-5{
+         margin-left: 2em;
+         width: 30em;
+     }
+     .team{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .quick{
+         margin-top: 1em;
+     }
+     .year{
+         margin-top: 5em;
+     }
+     .box , .feature-pera , .architect-img{
+         width: 25em;
+     }
+     .bonus{
+         margin-left: 1em;
+         margin-top: 5em;
+    
+     }
+     .ftr{
+         margin-left:.2em;
+         margin-top: 5em;
+     }
+    
+
+       }
